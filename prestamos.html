@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préstamos</title>
+    <link rel="stylesheet" href="./prestamos.css">
+</head>
+<body>
+    <header>
+        <h1>Préstamos</h1>
+    </header>
+    <main class="main">
+        <section class="form__section">
+            <form class="form__container" action="">
+                <label for="" >Monto:</label>
+                <input id="montoId" type="number" placeholder="Ingrese..."><br><br>
+                <label for="">Cuotas:</label>
+                <input id="cuotaId" type="number" placeholder="Ingrese..."><br><br>
+                <button class="form__container--button" type="button" onclick="montoxDia()">Calcular</button>
+                <p id="diaId"></p>
+            </form>
+        </section>
+    </main>
+    <script src="prestamos.js"></script>
+</body>
+</html>
